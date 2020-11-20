@@ -1,0 +1,16 @@
+{
+  "name": "autocomplete-zein",
+  "version": "1.0.0",
+  "description": "just trying to re-do a project to learn",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "author": "zein jendeya",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
