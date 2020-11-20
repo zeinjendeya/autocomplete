@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>words</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="styling-div">
+        <h1>Words Dictionary</h1>
+        <h3>if there's a word you would love to learn about, start here!</h3>
+        <div class="form-div">
+          <form class="search-form">
+            <input
+              type="text"
+              class="search-bar"
+              placeholder="enter a word"
+              autocomplete="off"
+              name="search"
+            />
+            <button class="search-btn" type="submit">search</button>
+          </form>
+          <div class="drop-list"></div>
+        </div>
+        <div class="search-result"></div>
+      </div>
+    </div>
+
+    <script src="./xhr.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
